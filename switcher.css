@@ -1,0 +1,67 @@
+body {
+	margin: 1em;
+	padding: 0;
+	font-family: arial;
+	font-size: 18px;
+	line-height: 1.5;
+}
+
+h1{
+	line-height: 1.25;
+	margin: 2em 0 0;
+}
+
+p{
+	margin: .5em 0;
+}
+
+#switcher{
+	list-style: none;
+	overflow: hidden;
+	padding: 0;
+	margin: 0;
+}
+
+#switcher li{
+	float: left;
+	height: 30px;
+	width: 30px;
+	margin: 0 15px 15px 0;
+	border-radius: 30px;
+	border: 3px solid black;
+}
+#greyButton{
+	background: gray;
+}
+
+#redButton{
+	background: red;
+}
+
+#blueButton{
+	background: blue;
+}
+
+#yellowButton{
+	background: yellow;
+}
+
+.greyBackground{
+	background: gray;
+	color: black;
+}
+
+.blueBackground{
+	background: blue;
+	color: white;
+}
+
+.redBackground{
+	background: red;
+	color: white;
+}
+
+.yellowBackground{
+	background: yellow;
+	color: gray;
+}
